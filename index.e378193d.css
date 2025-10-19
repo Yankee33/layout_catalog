@@ -75,7 +75,7 @@ body {
   margin-right: 20px;
 }
 
-.title {
+.card__title {
   letter-spacing: 0%;
   color: #060b35;
   margin-top: 40px;
@@ -86,7 +86,7 @@ body {
   line-height: 18px;
 }
 
-.product {
+.card__product {
   letter-spacing: 0%;
   color: #616070;
   margin-right: 64px;
@@ -164,12 +164,12 @@ body {
   margin-top: 32px;
 }
 
-.price {
+.card__price {
   margin-top: 24px;
   display: flex;
 }
 
-.text {
+.card__text {
   letter-spacing: 0%;
   color: #616070;
   font-size: 12px;
@@ -177,7 +177,7 @@ body {
   line-height: 18px;
 }
 
-.cost {
+.card__cost {
   letter-spacing: 0%;
   text-align: right;
   vertical-align: bottom;
