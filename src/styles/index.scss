@@ -198,7 +198,7 @@ body {
   vertical-align: bottom;
 }
 
-.buy-link {
+.card__buy {
   height: 40px;
   width: 166px;
   border-radius: 5px;
@@ -217,9 +217,11 @@ body {
   margin-bottom: 16px;
   box-sizing: border-box;
   margin-top: 16px;
+
+  transition: background-color 300ms ease, color 300ms ease;
 }
 
-.buy-link:hover {
+.card__buy:hover {
   color: #00acdc;
   background-color: #fff;
   border: 1px solid #00acdc;
@@ -231,7 +233,7 @@ body {
   padding: 50px 40px;
   display: grid;
   grid-template-columns: repeat(var(--count-column), 200px);
-  gap: 46px 48px;
+  gap: 48px 46px;
   justify-content: center;
 }
 
